@@ -14,9 +14,11 @@ public class TiposPrimitivos {
         char caractere = 'A';
         char caractereTabelaAscii = 65;
         char caractereUnicode = '\u0041';
+        String nome = "jhonny Hilário Goulart";
 
         System.out.println("A idade é "+idade+" anos");
         System.out.println(falso);
         System.out.println(caractere);
+        System.out.println(nome);
     }
 }
