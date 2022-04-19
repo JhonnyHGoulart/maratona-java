@@ -23,5 +23,10 @@ public class Operadores {
         boolean isDezmaioQueVinte = 10 > 20;
         System.out.println(isDezmaioQueVinte);
 
+        // &&=(AND) ||=(OR) !(NEGAÇÃO)
+        int idade = 35;
+        float salario = 3500f;
+        boolean isDentroDaLei = idade > 30 && salario >= 4612;
+        System.out.println("isDentroDaLei? " + isDentroDaLei);
     }
 }
