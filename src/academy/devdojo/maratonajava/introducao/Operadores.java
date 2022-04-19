@@ -15,5 +15,13 @@ public class Operadores {
         System.out.println(resultadodivisao);
         System.out.println(numero1 * numero2);
 
+        // %
+        int resto = 21 % 2;
+        System.out.println("Resto " + resto);
+
+        // < > <= >= == !=
+        boolean isDezmaioQueVinte = 10 > 20;
+        System.out.println(isDezmaioQueVinte);
+
     }
 }
