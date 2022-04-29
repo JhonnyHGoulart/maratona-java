@@ -1,6 +1,6 @@
 package academy.devdojo.maratonajava.introducao;
 
-public class estruturasCondicionais02 {
+public class EstruturasCondicionais02 {
     public static void main(String[] args) {
         //idade < 15 categoria infantil
         //idade >= 15 && <18 categoria juvenil
