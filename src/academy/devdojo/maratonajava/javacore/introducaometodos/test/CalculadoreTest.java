@@ -8,6 +8,7 @@ public class CalculadoreTest {
 
         calculadora.somarDoisNumeros();
         calculadora.subtrairDoisNumeros();
+        calculadora.multiplicaDoisNumeros(2,5);
 
     }
 }
