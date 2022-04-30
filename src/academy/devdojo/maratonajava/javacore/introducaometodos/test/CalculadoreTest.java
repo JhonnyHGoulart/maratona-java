@@ -8,7 +8,8 @@ public class CalculadoreTest {
 
         calculadora.somarDoisNumeros();
         calculadora.subtrairDoisNumeros();
-        calculadora.multiplicaDoisNumeros(2,5);
-
+        calculadora.multiplicaDoisNumeros(2, 5);
+        double resultadoDivisão = calculadora.divideDoisNumeros(10, 0);
+        System.out.println(resultadoDivisão);
     }
 }
