@@ -12,9 +12,9 @@ public class Funcionario {
             return;
         }
         for (double salario : this.salarios) {
-            System.out.println(salario);
+            System.out.println("Salario: " + salario);
         }
-        imprimeFuncionario();
+        calcularMediaSalario();
     }
 
     public void calcularMediaSalario() {
