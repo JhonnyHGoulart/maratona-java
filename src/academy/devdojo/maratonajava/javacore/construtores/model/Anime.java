@@ -5,6 +5,7 @@ public class Anime {
     private String tipo;
     private int episodeos;
     private String genero;
+    private String estudeo;
 
     public Anime(String nome, String tipo, int episodeos, String genero) {
         this.nome = nome;
@@ -12,7 +13,11 @@ public class Anime {
         this.episodeos = episodeos;
         this.genero = genero;
     }
-    public Anime() {
+    public Anime(String nome, String tipo, int episodeos, String genero,String estudeo) {
+        this(nome,tipo,episodeos,genero);
+        this.estudeo = estudeo;
+    }
+    public Anime(){
 
     }
 
@@ -21,6 +26,7 @@ public class Anime {
         System.out.println(this.episodeos);
         System.out.println(this.tipo);
         System.out.println(this.genero);
+        System.out.println(this.estudeo);
     }
 
     public String getNome() {
