@@ -1,6 +1,6 @@
-package academy.devdojo.maratonajava.sobrecargademetodos.test;
+package academy.devdojo.maratonajava.javacore.sobrecargademetodos.test;
 
-import academy.devdojo.maratonajava.sobrecargademetodos.model.Anime;
+import academy.devdojo.maratonajava.javacore.sobrecargademetodos.model.Anime;
 
 public class AnimeTest {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.sobrecargademetodos.model;
+package academy.devdojo.maratonajava.javacore.sobrecargademetodos.model;
 
 public class Anime {
     private String nome;
