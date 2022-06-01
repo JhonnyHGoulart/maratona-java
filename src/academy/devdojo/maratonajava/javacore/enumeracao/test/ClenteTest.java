@@ -8,6 +8,7 @@ public class ClenteTest {
         Cliente cliente1 = new Cliente("Jhonny", TipoCliente.PESSOA_FISICA, Cliente.TipoPagamento.DEBITO);
         Cliente cliente2 = new Cliente("Jhonny", TipoCliente.PESSOA_JURIDICA, Cliente.TipoPagamento.CREDITO);
 
+
         System.out.println(cliente1);
         System.out.println(cliente2);
 
