@@ -12,5 +12,7 @@ public class FuncionarioTest {
         System.out.println(gerente);
         System.out.println("-----");
         System.out.println(desenvolvedor);
+        gerente.imprime();
+        desenvolvedor.imprime();
     }
 }
